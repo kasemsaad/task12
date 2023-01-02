@@ -1,0 +1,33 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: 0;
+}
+body{
+    background-color: black;
+}
+#x{
+    width:500px ;
+}
+.m{
+   width: 20rem;
+    height: 20rem;
+    cursor: pointer;
+}
+.show{
+    width: 40rem;
+    height: 20rem;
+    position: absolute;
+
+    z-index: 99;
+}
+i{
+    z-index: 999;
+    position: absolute;
+    size: 30rem;
+    padding: 10px;
+    color: rgb(22, 19, 16);   
+    font-size: 30px; 
+    cursor: pointer;
+
+}
